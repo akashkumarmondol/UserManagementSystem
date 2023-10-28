@@ -28,6 +28,14 @@ namespace UserManagementSystem.Controllers
         {
             return View();
         }
+        public ActionResult SendCredential()
+        {
+            return View();
+        }
+        public ActionResult ChangePassword()
+        {
+            return View();
+        }
 
     }
 }

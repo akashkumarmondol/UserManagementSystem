@@ -124,6 +124,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\SignUpTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -131,7 +132,9 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\ChangePassword.css" />
     <Content Include="Content\ForgotPassword.css" />
+    <Content Include="Content\SendCredential.css" />
     <Content Include="Content\SignIn.css" />
     <Content Include="Content\SignUp.css" />
     <Content Include="Content\Verification.css" />
@@ -173,10 +176,11 @@
     <Content Include="Views\Home\SignUp.cshtml" />
     <Content Include="Views\Home\Verification.cshtml" />
     <Content Include="Views\Home\ForgotPassword.cshtml" />
+    <Content Include="Views\Home\SendCredential.cshtml" />
+    <Content Include="Views\Home\ChangePassword.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
