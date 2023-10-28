@@ -9,26 +9,26 @@
 </head>
 <body class="body-color">
     <center>
-        <form id="signupForm">
+        <form id="signupForm" action="#" method="post">
             <h2>Sign Up</h2>
             <label for="empId" class="label-class2">Emp Id:</label>
             <input type="text" id="empId" name="empId"><br>
             <label for="name" class="label-class">Name:</label>
-            <input type="text" id="name" name="name"><br>
+            <input type="text" id="name" name="name" required><br>
             <label for="mobile" class="label-class">Mobile:</label>
-            <input type="text" id="mobile" name="mobile"><br>
+            <input type="text" id="mobile" name="mobile" required><br>
             <label for="email" class="label-class">Email:</label>
-            <input type="text" id="email" name="email"><br>
+            <input type="text" id="email" name="email" required><br>
             <label for="userId" class="label-class">User Id:</label>
-            <input type="text" id="userId" name="userId"><br>
+            <input type="text" id="userId" name="userId" required><br>
             <label for="password" class="label-class">Password:</label>
-            <input type="password" id="password" name="password"><br />
+            <input type="password" id="password" name="password" required><br />
             <i class="fa fa-eye" id="togglePassword"></i>
             <label for="confirmPassword" class="label-class">Confirm Password:</label>
-            <input type="password" id="confirmPassword" name="confirmPassword">
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
             <i class="fa fa-eye" id="togglePassword2"></i><br>
             <label for="dob" class="date-format">Date of Birth:</label>
-            <input type="date" id="dob" name="dob" class="input-date-format"><br>
+            <input type="date" id="dob" name="dob" class="input-date-format" required><br>
             <input type="submit" value="Submit">
 
         </form>

@@ -20,6 +20,14 @@ namespace UserManagementSystem.Controllers
         {
             return View();
         }
+        public ActionResult Verification()
+        {
+            return View();
+        }
+        public ActionResult ForgotPassword()
+        {
+            return View();
+        }
 
     }
 }

@@ -14,13 +14,13 @@
         <form action="#" method="post">
             <h2>User Management System</h2>
             <label for="name">Name:</label>
-            <input type="text" name="Name" /><br />
+            <input type="text" name="Name" required/><br />
             <label for="password">Password:</label>
-            <input type="password" name="Password" id="myInput" /><br />
+            <input type="password" name="Password" id="myInput" required/><br />
             <i class="fa fa-eye" id="togglePassword"></i>
             <input type="submit" value="Login" />
             <div class="signin">
-                <p><a href="#">Sign Up</a>&emsp; &emsp; &emsp; &emsp;<a href="#">Forgot Password</a></p>
+                <p><a href="/Home/SignUp">Sign Up</a>&emsp; &emsp; &emsp; &emsp;<a href="/Home/ForgotPassword">Forgot Password</a></p>
             </div>
         </form>
     </center>
