@@ -13,7 +13,7 @@
 
     var mobileRegex = /^0\d{10}$/;
     var emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
-
+    
     if (!mobileRegex.test(mobile)) {
         alert('Please enter a valid mobile number');
         return false;
